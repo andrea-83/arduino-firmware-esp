@@ -316,7 +316,7 @@ void initWebServer(){
             boardInfo["logo"] = "/img/logoOtto.png";
             boardInfo["link"] = "http://www.arduino.org/learning/getting-started/getting-started-with-arduino-star-otto";
         }
-        else if (BOARDMODEL =="UNOWIFIDEVED"){
+        else if ((BOARDMODEL =="UNOWIFIDEVED") || (BOARDMODEL =="UNOWIFI")) {
             boardInfo["name"] = "Uno WiFi";
             boardInfo["icon"] = "/img/logoUnoWiFi.ico";
             boardInfo["logo"] = "/img/logoUnoWiFi.png";
